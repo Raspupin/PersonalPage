@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: Blantik;
+    src: url(./Blantik.otf);
+}
+@font-face {
+    font-family: raleway;
+    src: url(./Raleway-Regular.ttf);
+}
+.gradientBack{
+	background: linear-gradient(-45deg, #DDF2FD, #bef1ff, #DDF2FD, #bef1ff);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+p{
+    font-family: 'raleway';
+    font-style: normal;
+    font-variant: normal;  
+    color: #164863;
+}
+li{
+    font-family: 'raleway';
+    font-style: normal;
+    font-variant: normal;  
+    color: #164863;  
+    font-weight: bold;
+}
+.mainHeader{
+    font-family: Blantik;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 3rem;
+    color: #164863;
+}
+.secondaryHeader{
+    font-family: Blantik;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 2.5rem;
+    color: #164863;
+}
+.thirdHeader{
+    font-family: Blantik;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 2.2rem;
+    color: #164863;
+}
+
+.proPic{
+    border-radius: 80%;
+    border: solid 3px #DDF2FD;
+}
+.proCard{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.baseBackground{
+    background-color:#bef1ff ;
+}
+
+.hrSpace{
+    border-top: dashed 4px #164863;
+
+}
+
+.detailP{
+    margin: 2px;
+}
+
+.cardFlag{
+    width: 14rem;
+    height: 8rem;
+}
